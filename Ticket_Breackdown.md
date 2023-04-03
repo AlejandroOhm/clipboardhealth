@@ -12,7 +12,8 @@ The fourth ticket is to add input validation for the custom id field, which is i
 - Add input validation for custom id field
 - Write tests to verify functionality
 
-#Ticket 1: Create Custom Agent IDs Endpoint
+# Ticket 1: Create Custom Agent IDs Endpoint
+
 As a facility admin, I should be able to set custom IDs for agents that I work with so that I can refer to them by my own unique identifier in reports.
 
 ## Acceptance Criteria:
