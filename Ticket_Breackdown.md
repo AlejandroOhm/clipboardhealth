@@ -1,3 +1,17 @@
+Methodology
+
+The highest priority ticket is to add the custom id field, which is the main feature request from the client Facilities. The next ticket is to update the report generation code to use the custom id field if it's available, as this is the key functionality that is needed for the custom id field to be useful. The third ticket is to update the report UI to display the custom id field if it's available, which is important to make it clear to facilities that their custom id is being used.
+
+The fourth ticket is to add input validation for the custom id field, which is important to ensure that Facilities provide valid custom ids that can be used in the report generation. The last ticket is to write tests to verify the functionality of the feature, which is important to ensure that it works as expected and doesn't introduce any regressions.
+
+Top priority list
+
+- Add custom id field for facilities to use when generating reports
+- Update report generation code to use custom id field if provided, else use internal id
+- Update report UI to display custom id field if available
+- Add input validation for custom id field
+- Write tests to verify functionality
+
 Ticket 1: Create Custom Agent IDs Endpoint
 As a facility admin, I should be able to set custom IDs for agents that I work with so that I can refer to them by my own unique identifier in reports.
 
