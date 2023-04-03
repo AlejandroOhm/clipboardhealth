@@ -1,6 +1,6 @@
 Refactoring Explanation
 
-The original code has been refactored using ES Modules to comply with modern JavaScript standards and improve readability. The function itself has been left mostly unchanged as it is already simple and clean.
+The original code has been refactored using ES Modules to comply with modern JavaScript standards and improve readability. The function itself has been left mostly unchanged as it is already simple, clean and very easy to understand.
 
 Instead, small improvements have been made to the code structure, including using const instead of let for the values that do not change. Additionally, comments have been added to explain the purpose of the code block and the function as a whole.
 
