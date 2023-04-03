@@ -1,4 +1,4 @@
-import crypto from 'crypto'
+import crypto from 'crypto';
 
 /**
  * This function generates a deterministic partition key for a given event.
@@ -32,11 +32,12 @@ const deterministicPartitionKey = (event) => {
     } else {
         candidate = TRIVIAL_PARTITION_KEY;
     }
+
     if (candidate.length > MAX_PARTITION_KEY_LENGTH) {
         candidate = crypto.createHash("sha3-512").update(candidate).digest("hex");
     }
+
     return candidate;
 };
 
 export { deterministicPartitionKey };
-
