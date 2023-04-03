@@ -1,0 +1,33 @@
+{
+  "name": "clipboardhealth",
+  "version": "1.0.0",
+  "description": "This is a test for Clipboard Healt. This project contains two challenges - a \"Ticket Breakdown\" challenge and a \"Refactoring\" challenge. The two challenges are not related to one another, but both should be completed in the same folder. You can access a starter folder here. Any written answers should be included in markdown files within that folder.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Alejandro Diaz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlejandroOhm/clipboardhealth.git"
+  },
+  "keywords": [
+    "Clipboard",
+    "health",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/AlejandroOhm/clipboardhealth/issues"
+  },
+  "homepage": "https://github.com/AlejandroOhm/clipboardhealth#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "jest": "^29.5.0"
+  }
+}
