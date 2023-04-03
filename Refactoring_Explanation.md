@@ -1,4 +1,4 @@
-Refactoring Explanation
+#Refactoring Explanation
 
 The original code has been refactored using ES Modules to comply with modern JavaScript standards and improve readability. The function itself has been left mostly unchanged as it is already simple, clean and very easy to understand.
 
